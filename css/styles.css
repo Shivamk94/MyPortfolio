@@ -11,7 +11,7 @@ hr {
     border-style: dotted none none;
     border-color: #8080808F;
     border-width: 5px;
-    margin: 200px auto;
+    margin: 170px auto;
     width: 5%;
 }
 
@@ -45,7 +45,7 @@ ul {
 /***************************************** Class Level Styles *************************************/
 .bottom-cloud {
     position: absolute;
-    left: 20%;
+    left: 18%;
     width: 200px;
     height: auto;
     transition: 1s;
@@ -125,7 +125,9 @@ ul {
   }
 
 .hi {
-    text-shadow: 0 0 1px #6A097DFF;
+    padding: 50px;
+	margin: 0;
+	text-shadow: 0 0 1px #6A097DFF;
     transition: 250ms;
 }
 .hi:hover {
@@ -137,13 +139,13 @@ ul {
 .hello {
     color: #4C0070;
     font-family: 'Courier Prime', monospace;
-    font-size: 27px;
+    font-size: 26px;
     font-weight: 300;
     display: inline-block;
 }
 
 .hr-skills {
-    border-color: #E9D5DAFF;
+    border-color: #F9F5FAFF;
 	margin: 0;
     position: absolute;
 	left: 48%;
@@ -153,7 +155,7 @@ ul {
 .intro {
     color: #4C0070;
     font-family: 'Courier Prime', monospace;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 300;
     margin-top: 0;
     display: inline-block;
@@ -167,28 +169,29 @@ ul {
     margin: 80px 0 0;
     position: relative;
     bottom: -5px;
-    transition: 500ms;
+    transition: 400ms;
     width: 100%;
     padding-bottom: 0;
 }
 .mountain:hover {
-    transform: scale(1.015) translateY(-2px);
-    transition: 500ms;
+    transform: scale(1.02) translateY(-4.5px);
+    transition: 400ms;
 }
 
 .my-Name {
-    color: #6A097D;
+    border-radius: 100%;
+	color: #6A097D;
     font-family: 'Qwigley', cursive;
-    font-size: 120px;
-    margin: 40px auto 20px;
+    font-size: 115px;
+    margin: 30px auto 20px;
     vertical-align: middle;
     transition: 200ms;
     width: 400px;
     letter-spacing: 0.1rem;
 }
 .my-Name:hover {
-    text-shadow: 0 0 4px #6A097D7F;
-    transform: scale(1.04);
+    text-shadow: 0 3px 3px #6A097D4F;
+    transform: scale(1.05);
     transition: 200ms;
 }
 
@@ -210,7 +213,7 @@ ul {
     box-shadow: 0 0 5px #6A097D7F;
     height: 200px;
     margin-top: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 7px;
     width: 200px;
     transition: 250ms;
 }
@@ -246,7 +249,8 @@ ul {
 
 .skills-more {
     text-align: center;
-    margin: 400px auto 0;
+	padding: 50px;
+    margin: 350px auto 0;
     font-size: 1.4rem;
     color: #F9F5FAFF;
     letter-spacing: 0.05rem;
@@ -292,7 +296,7 @@ ul {
 }
 
 .software-database {
-    width: 280px;
+    width: 270px;
     float: right;
     margin: 20px 20px 20px 50px;
     transition: 250ms;
@@ -305,7 +309,7 @@ ul {
 .top-cloud {
     position: absolute;
     top: 18%;
-    right: 20%;
+    right: 18%;
     width: 200px;
     height: auto;
     transition: 1s;
